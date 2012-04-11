@@ -57,7 +57,7 @@ POSTS_DIR = "_posts"
 
 # Get the title and use it to derive the new filename
 t = Time.now
-t.convert_zone("US/Eastern")
+t.convert_zone("Asia/Shanghai")
 title = ARGV.join(" ")
 filename = "#{t.strftime('%Y-%m-%d')}-#{title.parameterize}.markdown" 
 filepath = File.join(POSTS_DIR, filename)
