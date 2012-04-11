@@ -41,7 +41,7 @@ img {
 
 body {
     margin: 0;
-    font-family: '微软雅黑',Helvetica, Arial, sans-serif;
+    font-family: '微软雅黑','Hiragino Sans GB', 'Helvetica Neue',Helvetica, Arial, sans-serif;
     font-size: 15px;
     line-height: 30px;
     color: #555;
