@@ -11,11 +11,11 @@
 <body onload="prettyPrint()">
 
   <div class="container">
-      <h1 class="sitename">Tao</h1>
+      <h1 class="sitename">{{ site.name }}</h1>
       <div class="nav">
-<a href="/">HOME</a>
-<a href="/archive/">ARCHIVE</a>
-<a href="https://twitter.com/#!/ztpala">TWITTER</a>
+<a href="/">首页</a>
+<a href="/archive/">存档</a>
+<a href="https://twitter.com/#!/gcfanghao">TWITTER</a>
 </div>
 {{ content }}
 <footer>
@@ -48,14 +48,8 @@ $(function(){
 </script>
 {% endif %}
 <script type="text/javascript">
-var _gaq = _gaq || [];
-_gaq.push(['_setAccount', '{{site:googleAnalyticsID}}']);
-_gaq.push(['_trackPageview']);
-(function() {
-  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-  </script>
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fc3b28c7191a53062f15f74bd46afc659' type='text/javascript'%3E%3C/script%3E"));
+</script>
 </body>
 </html>
