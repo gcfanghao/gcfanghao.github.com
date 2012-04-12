@@ -1,6 +1,6 @@
 markdown: rdiscount 
 permalink: /:year/:month/:day/:title 
-name: 等待那一刻
+name: Kivdy
 title: Kivdy Blog
 url: http://Kivdy.com
 exclude: [ README.md, newpost.rb ]
