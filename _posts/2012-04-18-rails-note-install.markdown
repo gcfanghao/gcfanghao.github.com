@@ -37,20 +37,17 @@ tags:
 <span class="label label-important">注意</span> `Xcode`和`Command line tools`必须安装，否则在安装`ruby`过程中会出现错误。
 
 ##Mac OS X 上安装rails
-打开Apple`终端`：
-
-**升级SQLite3
+打开Apple`终端`：			
+**升级SQLite3**
 <pre class="prettyprint">
 sudo port upgrade sqlite3
 </pre>
-
-**安装Ruby
+**安装Ruby**
 <pre class="prettyprint linenums">
 sudo port install ruby
 sudo port install ruby-rubygems
 </pre>
-
-**安装Rails
+**安装Rails**
 <pre class="prettyprint linenums">
 sudo gem update --system
 sudo gem uninstall rubygems-update
@@ -68,7 +65,6 @@ which ruby irb gem rake
 /opt/local/bin/gem
 /opt/local/bin/rake
 </pre>
-
 >Mac本身自带了Ruby，但版本比较老，而我们开发所需要的一般都是最新的Ruby。由于Mac相关环境可能会用到Ruby的旧版本，直接删除旧版本会影响系统相关特性。
 
 
