@@ -48,13 +48,13 @@ sudo port upgrade sqlite3
 </pre>
 
 **安装Ruby
-<pre class="prettyprint nums">
+<pre class="prettyprint linenums">
 sudo port install ruby
 sudo port install ruby-rubygems
 </pre>
 
 **安装Rails
-<pre class="prettyprint nums">
+<pre class="prettyprint linenums">
 sudo port upgrade sqlite3
 </pre>
 >待续
