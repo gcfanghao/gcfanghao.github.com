@@ -15,13 +15,10 @@ tags:
 以下是我的一些学习心得。
 首先从安装开始。
 
-<span class="label label-info">操作系统</span>：`Mac OS X Lion 10.7`
-
-<span class="label label-info">Ruby版本</span>：`ruby 1.8.7 (2012-02-08 patchlevel 358)`
-
-<span class="label label-info">Rails版本</span>: `Rails 3.2.3`
-
-<span class="label label-info">数据库版本</span>: `sqlite3`
++ 操作系统:  `Mac OS X Lion 10.7`
++ Ruby版本:  `ruby 1.8.7 (2012-02-08 patchlevel 358)`
++ Rails版本: `Rails 3.2.3`
++ 数据库版本: `sqlite3 3.7.3`
 
 ##安装前准备
 先安装以下三款软件：
@@ -55,6 +52,25 @@ sudo port install ruby-rubygems
 
 **安装Rails
 <pre class="prettyprint linenums">
-sudo port upgrade sqlite3
+sudo gem update --system
+sudo gem uninstall rubygems-update
+sudo gem install rails
+sudo gem install sqlite3
 </pre>
+<span class="label label-important">注意</span> 这样安装之后，操作系统上可能会有两个版本的Ruby，需要检验运行相关工具的版本的正确性。通过以下命令检验每个工具是否已经安装在同一目录：
+<pre>
+which ruby irb gem rake
+</pre>
+显示结果：
+<pre>
+/opt/local/bin/ruby
+/opt/local/bin/irb
+/opt/local/bin/gem
+/opt/local/bin/rake
+</pre>
+
+>Mac本身自带了Ruby，但版本比较老，而我们开发所需要的一般都是最新的Ruby。由于Mac相关环境可能会用到Ruby的旧版本，直接删除旧版本会影响系统相关特性。
+
+
+
 >待续
