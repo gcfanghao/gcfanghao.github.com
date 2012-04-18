@@ -15,6 +15,6 @@ tags:
 以下是我的一些学习心得。
 首先从安装开始。
 
-<lable>操作系统</lable>：`Mac OS X 10.7`
+<label>操作系统</label>：`Mac OS X 10.7`
 
 >待续
