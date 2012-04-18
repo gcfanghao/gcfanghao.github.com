@@ -5,7 +5,8 @@ date: 2012-04-18 09:16:46
 categories:
     - ruby on rails
 tags:
-    - ruby rails 
+    - ruby
+    - rails 
 ---
 最近看了关于rails和python的一些文章，觉得这两种语言确实有独到之处，其中有一篇文章比较客观的介绍了两者的[特点](http://robbin.iteye.com/blog/444015),文章作者也是老前辈了，他的评价是值得参考的。
 
