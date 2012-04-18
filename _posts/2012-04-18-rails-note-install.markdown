@@ -15,6 +15,20 @@ tags:
 以下是我的一些学习心得。
 首先从安装开始。
 
-<span class="label label-info">操作系统</span>：`Mac OS X 10.7`
+<span class="label label-info">操作系统</span>：`Mac OS X Lion 10.7`
+
+##安装前准备
+先安装以下三款软件：
+- Xcode
+- Command line tools
+- Macports
+
+<span class="label label-info">Xcode</span>是Apple的开发人员工具，它是免费的，可以在`Mac Store`中下载，共1.43G，如果网速不快，需要等待一段时间；安装完成后，还需要注册Apple Developer ID 才能使用，这一步很简单。
+
+<span class="label label-info">Command line tools</span>的安装：打开`xcode`>`Preference`>`Download`，可以看到`Command line tools`，大约180M，点击安装。
+
+<span class="label label-info">Macports</span>是一个软件包管理系统，用来简化Mac OS X和Darwin操作系统上软件的安装,它可以让用户在终端中简单的输入port install 软件包名称来安装软件包，软件的下载、编译、安装以及它依赖的所有其他软件包的安装都会自动完成。<a class="btn" href="http://www.macports.org/install.php">点击下载</a>
+
+
 
 >待续
